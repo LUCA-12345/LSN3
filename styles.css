@@ -1,0 +1,150 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: silver;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #e5e5f7;
+    opacity: 0.8;
+    background-image: linear-gradient(45deg, #444cf7 50%, #e5e5f7 50%);
+    background-size: 10px 10px;
+}
+
+header h1 {
+    font-size: 46px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    text-shadow: 1px 1px 1px black;
+}
+
+.contentBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    padding: 20px 50px 20px 50px;
+    border-radius: 4px;
+    background-color: silver;
+}
+
+.projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    box-shadow: 60px -16px teal;
+    margin: 15px;
+    padding: 10px;
+    background-color: gold;
+}
+
+.projectSubRoot {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.projectsSub {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    box-shadow: 15px -16px orchid;
+    margin: 20px;
+    padding: 20px;
+    background-color: silver;
+}
+
+.workExp {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    box-shadow: 60px -16px teal;
+    background-color: #e5e5f7;
+    opacity: 0.8;
+    background-image: linear-gradient(45deg, #444cf7 50%, #e5e5f7 50%);
+    background-size: 10px 10px;
+    margin: 15px;
+    padding: 10px;
+}
+
+.workExpSub {
+    border-radius: 4px;
+    margin: 10px;
+    padding: 20px;
+    background-color: silver;
+    box-shadow: 15px -16px orchid;
+}
+
+.education {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    box-shadow: 60px -16px teal;
+    margin: 15px;
+    padding: 10px;
+    background-color: gold;
+}
+
+.educationSubRoot {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.educationSub {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    box-shadow: 15px -16px orchid;
+    margin: 20px;
+    padding: 20px;
+    background-color: silver;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 75px;
+    padding-right: 75px;
+    background-color: #e5e5f7;
+    opacity: 0.8;
+    background-image: linear-gradient(45deg, #444cf7 50%, #e5e5f7 50%);
+    background-size: 10px 10px;
+}
+
+.somethingCool {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cool {
+    width: 100px;
+    border: 5px solid hsl(0, 0%, 40%);
+    padding: 5px;
+    background: hsl(0, 0%, 20%);
+    outline: 5px solid hsl(0, 0%, 60%);
+    box-shadow:
+        0 0 0 10px hsl(0, 0%, 80%),
+        0 0 0 15px hsl(0, 0%, 90%);
+    opacity: 0.8;
+    background-image: linear-gradient(45deg, #444cf7 50%, #e5e5f7 50%);
+    background-size: 10px 10px;
+}
